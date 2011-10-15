@@ -3,7 +3,7 @@ require 'omniauth-concur/version'
 
 Gem::Specification.new do |s|
   s.name = 'omniauth-concur'
-  s.version = OmniauthConcur::VERSION
+  s.version = OmniAuth::Concur::VERSION
   s.platform = Gem::Platform::RUBY
   s.date = '2011-10-13'
   s.authors = ['Derek Kastner']
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
+  s.add_dependency 'omniauth-oauth'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'bueller'
