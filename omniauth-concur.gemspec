@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors = ['Derek Kastner']
   s.email = 'dkastner@gmail.com'
   s.homepage = 'http://github.com/dkastner/omniauth-concur'
-  s.summary = %Q{TODO: one-line summary of your gem}
-  s.description = %Q{TODO: detailed description of your gem}
+  s.summary = %Q{Concur plugin for omniauth}
+  s.description = %Q{Add concur oauth support to your rails/ruby app}
   s.extra_rdoc_files = [
     'LICENSE',
     'README.rdoc',
